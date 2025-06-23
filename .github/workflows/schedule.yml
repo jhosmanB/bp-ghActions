@@ -1,0 +1,11 @@
+on:
+    schedule:
+        - cron: "*/2 * * * *"
+
+jobs:
+    hellow-world:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print time
+              run: echo "The current sercer time is ${date}"
+    
