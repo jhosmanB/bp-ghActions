@@ -3,9 +3,8 @@ on:
         - cron: "*/2 * * * *"
 
 jobs:
-    hellow-world:
+    hello-world:
         runs-on: ubuntu-latest
         steps:
             - name: print time
-              run: echo "The current sercer time is ${date}"
-    
+              run: echo "The current server time is $(date)"
