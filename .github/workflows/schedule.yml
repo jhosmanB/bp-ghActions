@@ -2,6 +2,7 @@ name: Scheduled Hello World
 on:
     schedule:
         - cron: "*/2 * * * *"
+    workflow_dispatch:
 
 jobs:
     hello-world:
