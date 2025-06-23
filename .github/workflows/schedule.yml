@@ -1,4 +1,4 @@
-name: Scheduled Hello World
+name: Scheduled Hello Worlds
 on:
     schedule:
         - cron: "*/2 * * * *"
