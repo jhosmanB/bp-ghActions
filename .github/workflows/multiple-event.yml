@@ -8,7 +8,7 @@ on:
             - main
 jobs:
     hello-world:
-        runs-on: ubuntu-lastest
+        runs-on: ubuntu-latest
         steps:
             - name: "Echo basic information"
               run: |
