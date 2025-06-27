@@ -8,5 +8,5 @@ jobs:
               run: |
                 echo "::group::My group"
                 echo "This is a message inside the group"
-                echow "::warning::This is a warning message"
+                echo "msg2 inside the group"
                 echo "::endgroup::"
