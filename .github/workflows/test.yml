@@ -10,3 +10,9 @@ jobs:
                 echo "This is a message inside the group"
                 echo "msg2 inside the group"
                 echo "::endgroup::"
+            - name: "set output"
+              run: |
+                echo "MY_OUTPUT=Hello World" >> $GITHUB_ENV
+            - name: "use output"
+              run: |
+                echo "The output is $MY_OUTPUT"
